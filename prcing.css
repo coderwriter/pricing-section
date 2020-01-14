@@ -1,0 +1,100 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+.pricing-table-area {
+  padding: 70px 0;
+  background: #f8f8f8;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  color: #141f4e;
+}
+.single-table {
+  padding: 40px;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.single-table h4 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #141f4e;
+}
+.single-table h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 30px 0;
+  color: #141f4e;
+}
+.single-table h2 span {
+  color: #777;
+  font-size: 24px;
+  font-weight: 400;
+}
+.single-table ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.single-table ul li {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  color: #141f4e;
+}
+.single-table a {
+  font-size: 14px;
+  font-weight: 600;
+  border: 1px solid #141f4e;
+  border-radius: 3px;
+  color: #141f4e;
+  padding: 15px 30px;
+  margin: 15px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+.single-table.popular {
+  position: relative;
+}
+.popular-price {
+  font-size: 14px;
+  position: absolute;
+  top: 25%;
+  left: -30px;
+  line-height: 1;
+  color: #fff;
+  background: #141f4e;
+  margin-right: -5px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 10px 20px;
+  transform: rotate(-90deg);
+}
+.popular-price::before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  border-right: 0px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 20px solid transparent;
+  border-top: 18px solid transparent;
+  top: 0;
+  left: 0;
+}
+.single-table.popular a {
+  background: #141f4e;
+  color: #fff;
+}
